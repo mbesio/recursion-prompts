@@ -9,6 +9,17 @@
 
 //Matteo starts working on this
 var factorial = function(n) {
+  // code the base case
+  if (n < 0){
+    return null;
+  }
+  if ( n === 0 ){
+    return 1;
+  }
+  // code the recursive function
+  else {
+    return n * factorial ( n - 1 );
+  }
 };
 
 // 2. Compute the sum of an array of integers.
